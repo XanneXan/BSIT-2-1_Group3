@@ -11,6 +11,7 @@ public class StudentClass extends JFrame {
     
     private JLabel lblTitle, lblName, lblId , lblCourse, lblGrade;
     private JTextField txtName, txtId, txtCourse, txtGrade;
+    private JButton btn1;
     
     StudentClass (){
         setExtendedState(MAXIMIZED_BOTH);     
@@ -59,6 +60,11 @@ public class StudentClass extends JFrame {
     txtGrade = new JTextField ();
     txtGrade.setBounds(570, 125, 250, 30);
     add(txtGrade);
+    
+    btn1 = new JButton("New");
+    btn1.setBounds(600, 600, 200, 30);
+    add(btn1);
+            
     
         
     }
