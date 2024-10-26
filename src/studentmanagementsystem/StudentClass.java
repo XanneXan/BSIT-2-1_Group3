@@ -10,11 +10,13 @@ import javax.swing.*;
 
 public class StudentClass extends JFrame {
     
+
     private JLabel lblTitle, lblName, lblId , lblCourse, lblGrade , lblMid, lblFin, lblAttendance, lblSearch;
     private JTextField txtName, txtId, midGrade, finGrade, txtSearch;
     private JComboBox txtCourse;
     private JButton btnAdd, btnDelete, btnUpdate, btnAttendance, btnSearch, btnRefresh, btnMenu;
     private JTable studList;
+
     
     
     private String [] crs = {"BSIT", "BSIE", "BSCPE" };
@@ -129,6 +131,6 @@ public class StudentClass extends JFrame {
     btnMenu.setBackground(Color.BLUE);
     add (btnMenu);
     
-    
+   
     }
 }
