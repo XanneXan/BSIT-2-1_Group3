@@ -39,7 +39,7 @@ public class CourseClass extends JFrame implements ActionListener{
     
         
             lblTitle = new JLabel ("Student Management System");
-            lblTitle.setBounds(30, 20, 350, 30);
+            lblTitle.setBounds(30, 20, 350, 30);setExtendedState(MAXIMIZED_BOTH);     
             lblTitle.setFont(new Font("Serif", Font.BOLD, 25));
             add (lblTitle);
 
@@ -97,14 +97,14 @@ public class CourseClass extends JFrame implements ActionListener{
             add(btnDelete);
 
             btnClear = new JButton ("Clear");
-            btnClear.setBounds(140, 460, 120, 40);
+            btnClear.setBounds(115, 460, 120, 40);
             btnClear.setFocusable(false);
             btnClear.setForeground(Color.WHITE);
             btnClear.setBackground(Color.BLUE);
             add (btnClear);
 
             btnAllCourse = new JButton ("Courses");
-            btnAllCourse.setBounds(280, 460, 120, 40);
+            btnAllCourse.setBounds(265, 460, 120, 40);
             btnAllCourse.setFocusable(false);
             btnAllCourse.setForeground(Color.WHITE);
             btnAllCourse.setBackground(Color.BLUE);
@@ -175,6 +175,11 @@ public class CourseClass extends JFrame implements ActionListener{
             setLayout(null);
             setResizable(false);
             setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            
+            lblTitle = new JLabel ("Course");
+            lblTitle.setBounds(30, 20, 350, 30);setExtendedState(MAXIMIZED_BOTH);     
+            lblTitle.setFont(new Font("Serif", Font.BOLD, 25));
+            add (lblTitle);
             
             //adding table to show the courses and students
             table = new JTable();
