@@ -15,8 +15,8 @@ public class StudentManagementSystem {
      */
     public static void main(String[] args) {
         
-        StudentClass cl = new StudentClass ();
-        cl.setVisible (true);
+        CourseClass runCS =  new CourseClass();
+        runCS.setVisible(true);
     }
     
 }
