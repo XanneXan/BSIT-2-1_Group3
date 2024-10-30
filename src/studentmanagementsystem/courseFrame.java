@@ -160,7 +160,7 @@ public class courseFrame extends JFrame implements ActionListener{
         @Override
         public void actionPerformed (ActionEvent e) {
             if(e.getSource() == btnAllCourse){
-                courseFrame play = new courseFrame();
+                courseExtendedFrame play = new courseExtendedFrame();
                 play.setVisible(true);
             }
         }
