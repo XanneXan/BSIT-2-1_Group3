@@ -76,6 +76,8 @@ import javax.swing.JTextField;
                 JOptionPane.showMessageDialog(this, "PLEASE INPUT A PASSWORD", "ERROR", JOptionPane.ERROR_MESSAGE);
             }else if(txt.isEmpty()) {
                  JOptionPane.showMessageDialog(this, "PLEASE INPUT A NAME", "ERROR", JOptionPane.ERROR_MESSAGE);
+            }else {
+                JOptionPane.showMessageDialog(this, "INCORRECT NAME OR PASSWORD", "ERROR", JOptionPane.ERROR_MESSAGE);
             }
                 
     }
