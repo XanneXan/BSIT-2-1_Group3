@@ -95,7 +95,6 @@ public class gradeFrame extends JFrame{
     txtG1 = new JTextField ();
     txtG1.setBounds(255, 340, 35, 20);
     txtG1.setBackground(Color.CYAN);
-    txtG1.setEditable(false);
     add (txtG1);
     
     lblC2 = new JLabel ("Course 2");
@@ -113,7 +112,6 @@ public class gradeFrame extends JFrame{
     txtG2 = new JTextField ();
     txtG2.setBounds(255, 380, 35, 20);
     txtG2.setBackground(Color.CYAN);
-    txtG2.setEditable(false);
     add (txtG2);
     
     
@@ -131,7 +129,6 @@ public class gradeFrame extends JFrame{
     txtG3 = new JTextField ();
     txtG3.setBounds(255, 420, 35, 20);
     txtG3.setBackground(Color.CYAN);
-    txtG3.setEditable(false);
     txtG3.setText("0.75");
     add (txtG3);
     
@@ -151,7 +148,6 @@ public class gradeFrame extends JFrame{
     txtG4 = new JTextField ();
     txtG4.setBounds(255, 460, 35, 20);
     txtG4.setBackground(Color.CYAN);
-    txtG4.setEditable(false);
     add (txtG4);
     
     
@@ -169,7 +165,6 @@ public class gradeFrame extends JFrame{
     txtG5 = new JTextField ();
     txtG5.setBounds(525, 340, 35, 20);
     txtG5.setBackground(Color.CYAN);
-    txtG5.setEditable(false);
     add (txtG5);
     
     
@@ -187,7 +182,6 @@ public class gradeFrame extends JFrame{
     txtG6 = new JTextField ();
     txtG6.setBounds(525, 380, 35, 20);
     txtG6.setBackground(Color.CYAN);
-    txtG6.setEditable(false);
     add (txtG6);
     
     
@@ -205,7 +199,6 @@ public class gradeFrame extends JFrame{
     txtG7 = new JTextField ();
     txtG7.setBounds(525, 420, 35, 20);
     txtG7.setBackground(Color.CYAN);
-    txtG7.setEditable(false);
     add (txtG7);
     
     
@@ -223,7 +216,6 @@ public class gradeFrame extends JFrame{
     txtG8 = new JTextField ();
     txtG8.setBounds(525, 460, 35, 20);
     txtG8.setBackground(Color.CYAN);
-    txtG8.setEditable(false);
     add (txtG8);
    
     
