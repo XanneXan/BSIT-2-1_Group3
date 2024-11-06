@@ -14,7 +14,7 @@ public class studentFrame extends JFrame {
     
 
     private JLabel lblTitle, lblName, lblId , lblSem, lblC1 , lblC2, lblC3, lblC4, lblC5, lblC6, lblC7, lblC8, lblSearch;
-    private JTextField txtName, txtId, midGrade, finGrade, txtSearch;
+    private JTextField txtName, txtId, txtSearch;
     private JComboBox cmbSem, cmbC1, cmbC2, cmbC5, cmbC3, cmbC4, cmbC6, cmbC7, cmbC8;
     private JButton btnAdd, btnDelete, btnUpdate, btnAttendance, btnSearch, btnRefresh, btnMenu, btnClear;
     private JTable studList; 
